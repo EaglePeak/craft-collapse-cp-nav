@@ -1,0 +1,51 @@
+/**
+ * permanent admin hamburger menu plugin for Craft CMS
+ *
+ * permanent admin hamburger menu CSS
+ *
+ * @author    Claudia Aguilar
+ * @copyright Copyright (c) 2018 Claudia Aguilar
+ * @link      https://www.eaglepeakweb.com/team/claudia-aguilar
+ * @package   PermanentAdminHamburgerMenu
+ * @since     1.0.0
+ */
+#global-container #global-sidebar{ display: none !important; }
+#crumbs nav{ display: none !important; }
+#crumbs #nav-toggle { display: block !important; }
+
+body.showing-nav #global-container  #global-sidebar{
+  display: block !important; 
+}
+#global-container{
+  transition: left 250ms ease-in-out !important; 
+  position: relative !important; 
+}
+
+#header, #main-content{
+  width: 100vw !important;
+}
+
+#crumbs {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  width: 10px !important;
+  position: fixed;
+  z-index: 99;
+}
+
+#main-container #crumbs + #main #header, #main-container #crumbs:not(.empty) + #main #header {
+    padding-top: 13px  !important;
+    padding-bottom: 13px !important;
+    padding-left: 60px !important;
+}
+
+@media only screen and (max-width: 1223px){
+  body.ltr #global-container {
+    left: 0px !important; 
+  }
+  #global-container {
+    position: relative;
+    width: 100vw !important;
+  }
+}
