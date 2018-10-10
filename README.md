@@ -1,7 +1,7 @@
 # Collapse CP Nav plugin for Craft CMS 3.x
 Take control of the left pane navigation in the admin.  Use this plugin to free up more screen real estate by hiding the CP's left pane. Especially handy when working on entries listings with many columns.
 
-![Screenshot](resources/img/plugin-logo.png)
+![Screenshot](resources/img/collapse-cp-nav-animation.gif)
 
 _**Note:** The license fee for this plugin is $9 via the Craft Plugin Store._
 
