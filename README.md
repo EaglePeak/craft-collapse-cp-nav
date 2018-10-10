@@ -9,13 +9,16 @@ _**Note:** The license fee for this plugin is $9 via the Craft Plugin Store._
 This plugin requires Craft CMS 3.0.0-RC1 or later.
 
 ## Installation
+### Composer
 To install the plugin, follow these steps:
 
 1. Install with Composer via:
-   `composer require EaglePeak/craft-collapse-cp-nav`
+   `composer require eaglepeak/collapse-cp-nav`
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Collapse CP Nav.
 
+### Craft Plugin Store
+You can also install SEOmatic via the **Plugin Store** in the Craft AdminCP.
 
 ## Using Collapse CP Nav
 Once installed, a persistent **☰** hamburger menu will appear at the top of the control panel. When you need more desktop space on the admin screens click the **☰** icon to hide the left navigation pane.
