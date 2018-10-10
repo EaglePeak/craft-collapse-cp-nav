@@ -18,7 +18,7 @@ To install the plugin, follow these steps:
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Collapse CP Nav.
 
 ### Craft Plugin Store
-You can also install SEOmatic via the **Plugin Store** in the Craft AdminCP.
+You can also install Collapse CP Nav via the **Plugin Store** in the Craft AdminCP.
 
 ## Using Collapse CP Nav
 Once installed, a persistent **☰** hamburger menu will appear at the top of the control panel. When you need more desktop space on the admin screens click the **☰** icon to hide the left navigation pane.
