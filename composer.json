@@ -17,7 +17,7 @@
         "docs": "https://github.com/EaglePeak/craft-collapse-cp-nav/blob/master/README.md",
         "issues": "https://github.com/EaglePeak/craft-collapse-cp-nav/issues"
     },
-    "license": "MIT",
+    "license": "proprietary",
     "authors": [
         {
             "name": "Claudia Aguilar",
@@ -33,7 +33,7 @@
         }
     },
     "extra": {
-        "name": "Collapse Control Panel Navigation!",
+        "name": "Collapse CP Nav",
         "handle": "collapse-cp-nav",
         "hasCpSettings": false,
         "hasCpSection": false,
