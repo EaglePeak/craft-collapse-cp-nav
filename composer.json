@@ -1,6 +1,6 @@
 {
     "name": "eaglepeak/collapse-cp-nav",
-    "description": "Running out of space in the entries admin tables?  Hide the control panel’s left pane navigation to free up more space.",
+    "description": "Hide the control panel’s left pane navigation to free up more screen real estate.",
     "type": "craft-plugin",
     "version": "1.0.0",
     "keywords": [
