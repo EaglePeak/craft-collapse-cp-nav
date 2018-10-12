@@ -23,6 +23,8 @@ You can also install Collapse CP Nav via the **Plugin Store** in the Craft Admin
 ## Using Collapse CP Nav
 Once installed, a persistent **☰** hamburger menu will appear at the top of the control panel. When you need more desktop space on the admin screens click the **☰** icon to hide the left navigation pane.
 
+You can also use the keyboard shortcut "t", to toggle the sidebar whenever you want.
+
 
 ## Issues
 Please report any issues you find to the [Collapse CP Nav issues](https://github.com/EaglePeak/craft-collapse-cp-nav/issues) page.
