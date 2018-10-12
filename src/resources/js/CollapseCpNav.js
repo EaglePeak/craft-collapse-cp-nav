@@ -16,10 +16,10 @@ jQuery(document).ready(function(){
   
   // adding keyboard command to toggle the sidebar on T
   jQuery(window).on('keydown', function(){
-	  if( jQuery('input:focus').length === 0 ){
-		  if(event.code === 'KeyT'){
-    	  $('body').toggleClass('showing-nav');
-		  }
-    }
+	if( jQuery('input:focus').length === 0 ){
+		if(event.code === 'KeyT'){
+			$('body').toggleClass('showing-nav');
+		}
+	}
   });
 });
