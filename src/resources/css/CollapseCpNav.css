@@ -9,12 +9,16 @@
  * @package   PermanentAdminHamburgerMenu
  * @since     1.0.0
  */
-#global-container #global-sidebar{ display: none !important; }
+#global-container #global-sidebar{ 
+  max-width:0px; 
+  transition: all 0.2s ease-in-out; 
+}
+#global-sidebar #system-info #system-name h2{ white-space:nowrap;}
 #crumbs nav{ display: none !important; }
 #crumbs #nav-toggle { display: block !important; }
 
 body.showing-nav #global-container  #global-sidebar{
-  display: block !important; 
+  max-width: 225px; 
 }
 #global-container{
   transition: left 250ms ease-in-out !important; 
