@@ -13,7 +13,7 @@
   max-width:0px; 
   transition: all 0.2s ease-in-out; 
 }
-#global-sidebar #system-info #system-name h2{ white-space:nowrap;}
+/*#global-sidebar #system-info #system-name h2{ white-space:nowrap;}*/
 #crumbs nav{ display: none !important; }
 #crumbs #nav-toggle { display: block !important; }
 
