@@ -13,4 +13,13 @@ jQuery(document).ready(function(){
   // jQuery("#global-container").addClass("permanent-hamburger");
   jQuery("#global-container.permanent-hamburger #global-sidebar").show();
   // jQuery("#crumbs").addClass("permanent-hamburger");
+  
+  // adding keyboard command to toggle the sidebar on T
+  jQuery(window).on('keydown', function(){
+	if( jQuery(':focus').length === 0 ){
+		if(event.code === 'KeyT'){
+			$('body').toggleClass('showing-nav');
+		}
+	}
+  });
 });
