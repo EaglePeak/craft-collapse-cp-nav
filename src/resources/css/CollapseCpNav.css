@@ -25,6 +25,10 @@ body.showing-nav #global-container  #global-sidebar{
   position: relative !important; 
 }
 
+.showing-nav #header, .showing-nav #main-content{
+  width: calc(100vw - 225px) !important;
+}
+
 #header, #main-content{
   width: 100vw !important;
 }
